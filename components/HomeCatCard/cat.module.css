@@ -1,0 +1,30 @@
+.homecatSection{
+    padding-top: var(---secPad);
+
+    position: relative;
+}
+.height{
+    height: 465px;
+}
+.maxWidth{
+    max-width:450px;
+    border-radius:10px;
+}
+.heading{
+    font-family: var(--HeadingFont);
+    font-size:30px;
+}
+
+@media screen and (max-width: 576px){
+    .height{
+        height: 325px;
+    }
+    .maxWidth{
+        width:90%;
+    }
+    .heading{
+        font-size:24px;
+    }
+    
+
+}

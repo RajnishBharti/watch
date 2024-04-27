@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /wishlist/
+Disallow: /signup/
+Disallow: /signin/
+Sitemap: https://www.worldofwatchesindia.com/sitemap.xml

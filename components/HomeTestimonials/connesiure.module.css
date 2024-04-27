@@ -1,0 +1,35 @@
+.connesiurey{
+    padding-bottom: 60px;
+    position: relative;
+}
+.cards{
+    border: solid 1px rgb(215 175 111 / 50%);
+    /* box-shadow: 5px 5px #79624f;
+    border-bottom: #79624f;
+    border-right: #79624f; */
+    padding: 1rem;
+    border-radius: 16px;
+    margin-bottom:45px;
+    height:100%;
+}
+.cards p{
+    text-align:justify;
+}
+.cards h4{
+    text-align:left;
+    padding-top:1rem;
+    font-size:1rem;
+    font-weight:600;
+}
+@media screen and (max-width: 576px){
+    .connesiurey a.blackBtn{
+        display:table;
+        margin:auto;
+    }
+
+    .connesiurey{
+        padding:30px 0 15px 0;
+    }
+}
+
+

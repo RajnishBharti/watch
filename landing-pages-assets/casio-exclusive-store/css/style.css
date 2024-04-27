@@ -1,0 +1,623 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  /*font-family: 'Mochiy Pop One', sans-serif;*/
+  font-family: "Raleway", sans-serif;
+}
+body.show-menu {
+}
+:root {
+  --white: #fff;
+  --gray: #f3f5f6;
+  --pad15: 15px;
+  --darksilever: #886f59;
+  ---darkgray: #cdcfd0;
+  --Raleway: "Raleway", sans-serif;
+  ---secPad: 70px 0;
+  ---Playfair: "Playfair Display", serif;
+  ---gap70: 70px;
+  --robot0: "Roboto", sans-serif;
+}
+.wowDtlsContent {
+}
+header {
+  padding-bottom: var(---gap70);
+}
+.wowDtls {
+  margin-left: auto;
+  margin-right: 0;
+  display: table;
+  padding-top: 57px;
+}
+h1 {
+  color: #000000;
+  font-family: var(---Playfair);
+  font-size: 49px;
+  line-height: 65px;
+  margin: 0;
+}
+.wowDtlsContent ul {
+  margin: 0;
+  padding: 38px 0 0 0;
+}
+
+.wowDtlsContent ul li {
+  list-style: none;
+  padding-bottom: 34px;
+  color: #000000;
+  line-height: 40px;
+  font-size: 24px;
+  font-family: var(--Raleway);
+  font-weight: 500;
+}
+.wowDtlsContent {
+  max-width: 471px;
+}
+.wowDtlsContent ul li.location {
+  background: url("../img/location.svg") no-repeat left 11px;
+  padding-left: 56px;
+}
+
+.wowDtlsContent ul li.mail {
+  background: url("../img/mail.svg") no-repeat left 8px;
+  padding-left: 56px;
+}
+.wowDtlsContent ul li.callWithWatsapp {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  width: 100%;
+}
+.wowDtlsContent ul li.callWithWatsapp .whatsapp,
+.wowDtlsContent ul li.callWithWatsapp .call {
+  color: #000000;
+  font-size: 24px;
+  line-height: 40px;
+  font-size: var(--robot0);
+}
+.wowDtlsContent ul li.callWithWatsapp .whatsapp {
+  margin-left: 0;
+
+  background: url("../img/whatsapp.svg") no-repeat left 11px;
+  padding-left: 56px;
+}
+.wowDtlsContent ul li.callWithWatsapp .whatsapp a, .wowDtlsContent ul li.mail a, 
+.wowDtlsContent ul li.callWithWatsapp .call a{
+  color:#000000;
+  text-decoration:none;
+}
+.wowDtlsContent ul li.callWithWatsapp .call {
+  margin-left: 37px;
+  background: url("../img/call.svg") no-repeat left 11px;
+  padding-left: 56px;
+}
+.wowDtlsContent ul li.call {
+}
+.subName {
+  color: #000000;
+  opacity: 1;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: var(--Raleway);
+}
+.btnDtls {
+  display: flex;
+/*  flex-wrap:wrap;*/
+  grid-column-gap: 26px;
+}
+.btnDtls a {
+  font-family: var(--Raleway);
+  box-shadow: 0px 18px 17px #fff;
+  background: #886f59;
+  opacity: 1;
+  width: 204px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  line-height: 34px;
+  border-radius: 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btnDtls a:hover {
+  box-shadow: 0px 18px 17px #00000036;
+}
+
+/*owl custom nav*/
+.customOwlnav {
+  position: relative;
+}
+.customOwlnav .owl-carousel .owl-nav span {
+  opacity: 0;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev {
+  position: relative;
+  width:60px;
+  height:31px;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next:hover,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev:hover {
+  background: none;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next:before,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev:before {
+  content: "";
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  color: #fff !important;
+  background: url("../img/right-arrow.svg") no-repeat center #886f59 !important;
+  background-size: 40px;
+  transform: rotate(180deg);
+  border-radius: 6px;
+}
+
+.customOwlnav .owl-carousel .owl-nav button.owl-next:before {
+  transform: rotate(0deg);
+}
+
+.customOwlnav .owl-theme .owl-nav {
+  margin-top: 24px;
+}
+
+.customOwlnav.bottomPosition .owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 41px;
+}
+
+.customOwlnav.topLessPosition.rightPostiont .owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -111px;
+    right: 0;
+    left: auto;
+}
+/*end owl custom nav*/
+
+h2{
+    color: #000000;
+    font-family: var(---Playfair);
+    font-size: 49px;
+    line-height: 65px;
+    margin: 0;
+    font-weight:600;
+}
+/* branding section start here*/
+
+section.branding{
+background: transparent linear-gradient(180deg, #E7ECEF 0%, #E7ECEF 0%, #CDD1D400 99%, #B0B3B600 1%, #74767800 100%) 0% 0% no-repeat padding-box;
+padding:var(---secPad);
+}
+section.branding h2{
+  padding-bottom:30px;
+}
+section.branding p{
+  font-size:24px;
+  line-height:40px;
+  color: #919191;
+  opacity: 1;
+  font-family:var(--Raleway);
+}
+.brndlist{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  grid-column-gap:18px;
+  grid-row-gap:18px;
+  flex-wrap:wrap;
+}
+.brandItmes{
+  width:100%;
+ /* width:calc(16.66% - 18px);
+  height:182px;*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fff;
+  border-radius:4px;
+  border:solid 1px #ccc;
+  overflow: hidden;
+}
+
+.storeTime{
+  background:#E7ECEF;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  margin-top:83px;
+}
+.storeTimeHead{
+    position: relative;
+    color: #000000;
+    opacity: 1;
+    font-size: 49px;
+    padding: 55px 123px 55px 46.67px;
+    font-family: var(---Playfair);
+    background: #CDDAE2;
+    margin-left: -11px;
+    margin-right: 95px;
+}
+.storeTimeHead:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: -100px;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 100px;
+    border-left-width: 100px;
+    border-bottom: 184px solid #e7ecef;
+}
+.storeOpenDate{
+  font-family: var(--Raleway);
+  font-size:31px;
+  font-weight:bold;
+  line-height:50px;
+  padding-right:30px;
+}
+.storeOpenDate img{
+  margin-right:15px;
+}
+
+section.casioStore{
+  padding-bottom:var(---gap70);
+}
+
+section.casioStore p{
+  color: #919191;
+  opacity: 1;
+  padding:25px 0 0 0;
+  margin:0;
+  font-size:24px;
+  line-height:40px;
+  text-align:center;
+}
+.max-center{
+  width:906px;
+  margin:auto;
+}
+.curveBg{
+  padding-top:23px;
+  position:relative;
+  overflow: hidden;
+}
+.curveBg:before{
+    /*content: ' ';
+    width: 102%;
+    height: 266px;
+    background: #fff;
+    position: absolute;
+    top: -134px;
+    z-index: 10;
+    border-radius: 50%;*/
+    content: ' ';
+    width: 100%;
+    height: 134px;
+    background: #fff;
+    position: absolute;
+    top: -69px;
+    z-index:2;
+    border-radius: 50%;
+}
+
+.curveBg:after{
+    content: ' ';
+    width: 123%;
+    left: -43px;
+    height: 222px;
+    background: #fff;
+    position: absolute;
+    bottom: -117px;
+    z-index:2;
+    border-radius: 50%;
+}
+
+/*map section start from here*/
+section.mapSection ul.nav-tabs{
+  flex-wrap:wrap;
+  border:none;
+}
+section.mapSection ul.nav-tabs li{
+  width:100%;
+  padding:20px 0;
+}
+section.mapSection ul.nav-tabs li:first-child{
+  margin-top:0;
+  padding-top:0;
+}
+section.mapSection ul.nav-tabs li a{
+  width:100%;
+  display:block;
+  border: 2px solid #ccc;
+  padding:32px 38px;
+  border-radius:10px;
+  background:#F8F9FA;
+}
+section.mapSection ul.nav-tabs li a.active{
+  border: 2px solid #FAEAB1;
+
+}
+section.mapSection ul.nav-tabs li a h3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 1;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0;
+}
+section.mapSection ul.nav-tabs li a h3 img{
+  margin-right:15px;
+}
+section.mapSection ul.nav-tabs li a p{
+    padding-left: 36px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #919191;
+    opacity: 1;
+    font-family: var(--Raleway);
+    margin: 0;
+}
+section.mapSection iframe{
+  width:100%;
+  height:762px;
+}
+
+footer{
+  padding:var(---secPad);
+  opacity: 1;
+  background:#FFFFFF;
+  font-size:24px;
+  line-height:24px;
+}
+footer a{
+  color:#E5BA73;
+  text-decoration:none;
+}
+
+.modal-dialog {
+    max-width: 760px!important;
+}
+.appointment-model .modal-body {
+    padding: 0;
+    background:#886f59;
+}
+button.btn-close {
+    z-index: 999;
+    position: absolute;
+    right: -18px;
+    border-radius: 50px;
+    width: 32px;
+    height: 30px;
+    font-size: 14px;
+    opacity: 1;
+    top: -34px;
+    background-color: #fff;
+}
+.modal-title {
+    text-align: center;
+    background: #886f59;
+    margin-left: -15px;
+    padding-left: 15px;
+    color: #fff;
+    padding-top: 15px;
+}
+.modal-title span{
+  display:block;
+}
+.model-form form{
+  padding:15px;
+}
+.model-form form input{
+  width:100%;
+  border-radius:4px;
+  padding:5px 10px;
+  border:solid 1px #ccc;
+}
+.model-form form label{
+  color:#fff;
+  font-weight:600;
+}
+
+.timing-area{
+  display:flex;
+}
+.timing-area div{
+  width:49%;
+}
+.timing-area div:last-child{
+  margin-right:0;
+  margin-left:auto;
+}
+
+.model-form form button, 
+.model-form form button:hover{
+  margin-top:15px;
+  background:#000;
+  border:#000;
+  padding:10px 15px;
+}
+@media (max-width: 767px) {
+
+  :root {
+  --white: #fff;
+  --gray: #f3f5f6;
+  --pad15: 15px;
+  --darksilever: #886f59;
+  ---darkgray: #cdcfd0;
+  --Raleway: "Raleway", sans-serif;
+  ---secPad: 30px 0;
+  ---Playfair: "Playfair Display", serif;
+  ---gap70: 30px;
+  --robot0: "Roboto", sans-serif;
+}
+
+   header{
+    text-align:center;
+   }
+   .wowDtlsContent, .max-center{
+    max-width:100%;
+   }
+   h1{
+    font-size:30px;
+   }
+   .wowDtls{
+    padding-top:35px;
+   }
+   header{
+    padding-bottom:0;
+   }
+   .wowDtlsContent ul li.callWithWatsapp .whatsapp, 
+   .wowDtlsContent ul li.callWithWatsapp .call{
+    width:100%;
+    margin-left:0;
+   }
+   .storeTimeHead:before{
+    display:none;
+   }
+   .storeTimeHead{
+    margin-right:0;
+   }
+   .wowDtlsContent h1, .subName{
+      text-align:center;
+   }
+   .wowDtlsContent ul{
+    margin:0;
+    padding:15px 0 0 0;
+   }
+   .wowDtlsContent ul li{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom:20px;
+   }
+   .wowDtlsContent ul li.location, .wowDtlsContent ul li.mail, .wowDtlsContent ul li.callWithWatsapp .call, .wowDtlsContent ul li.callWithWatsapp .whatsapp{
+    background-size: 16px;
+   }
+   .wowDtlsContent ul li.callWithWatsapp .whatsapp img{
+      width:16px;
+   }
+   .btnDtls{
+       grid-column-gap:0px;
+       padding-bottom:25px;
+   }
+   .btnDtls a{
+      width: auto;
+      padding: 0 21px;
+      box-shadow: none;
+      text-align: center;
+      line-height: 18px;
+      font-size: 14px;
+      border-left: solid 1px #fff;
+   }
+   .btnDtls a:last-child{
+      
+   }
+   section.topBanner{
+      padding-bottom:30px;
+   }
+   .brandItmes{
+      width: calc(50% - 18px);
+      height:138px;
+   }
+   .storeTimeHead {
+      font-size: 31px;
+      padding:0 0 0 15px;
+      width: 137%;
+      text-align: center;
+      margin: 0 -12px;
+      background: none;
+      color: #947f6c;
+   }
+   .storeOpenDate{
+      font-size: 18px;
+      text-align: center;
+      width: 100%;
+      padding-right:0;
+   }
+   .storeOpenDate img{
+      width:25px;
+      margin-right:15px;
+   }
+   h2{
+      font-size: 28px;
+      line-height: 51px;
+   }
+   section.casioStore p{
+      padding-top:0px;
+      font-size:16px;
+      line-height:28px;
+   }
+   section.mapSection ul.nav-tabs li a{
+      padding:15px;
+   }
+   section.mapSection ul.nav-tabs li a h3{
+      font-size:18px;
+   }
+   section.mapSection ul.nav-tabs li{
+      padding:10px 0;
+   }
+   section.mapSection iframe{
+      height:250px;
+   }
+   footer{
+    font-size: 20px;
+    line-height: 29px;
+   }
+    footer a{
+        display:block;
+        padding-top:5px;
+    }
+    section.branding .customOwlnav.topLessPosition.rightPostiont .owl-theme .owl-nav{
+            top: -81px;
+            right: 28px;
+    }
+
+    section.branding .customOwlnav{
+      padding-top:50px;
+    }
+    section.casioStore{
+      padding:0;
+    }
+    section.branding p{
+      font-size: 16px;
+      line-height: 30px;
+    }
+    .customOwlnav .owl-carousel .owl-nav button.owl-next, .customOwlnav .owl-carousel .owl-nav button.owl-prev{
+        width:25px;
+        height:25px;
+    }
+    .customOwlnav .owl-carousel .owl-nav button.owl-next:before, .customOwlnav .owl-carousel .owl-nav button.owl-prev:before{
+        width: 33px;
+        height: 33px;
+        background-size: 10px!important;
+    }
+    .storeTime{
+      padding:15px 0;
+      margin-top:35px;
+    }
+    .curveBg:before{
+      width: 100%;
+      height: 79px;
+      top: -42px;
+      display:none;
+    }
+    .curveBg:after{    
+        height: 80px;
+        bottom: -29px;
+    }
+    .customOwlnav.bottomPosition .owl-theme .owl-nav{
+            bottom: 11px;
+    }
+    section.mapSection ul.nav-tabs li a p{
+        display:none;
+    }
+}

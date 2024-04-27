@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,500;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  /*font-family: 'Mochiy Pop One', sans-serif;*/
+  font-family: "Raleway", sans-serif;
+}
+body.show-menu {
+}
+:root {
+  --white: #fff;
+  --gray: #f3f5f6;
+  --pad15: 0 0.938rem;
+  --darksilever: #886f59;
+  ---darkgray: #cdcfd0;
+  --Raleway: "Raleway", sans-serif;
+  ---secPad:4.375rem 0;
+  ---Playfair: "Playfair Display", serif;
+  ---gap70: 4.375rem;
+  --robot0: "Roboto", sans-serif;
+}
+.wowDtlsContent {
+}
+header {
+  padding-bottom: var(---gap70);
+}
+.wowDtls {
+  margin-left: auto;
+  margin-right: 0;
+  display: table;
+  padding-top: 3.563rem;
+}
+h1 {
+  color: #000000;
+  font-family: var(---Playfair);
+  font-size:3.063rem;
+  line-height: 4.063rem;
+  margin: 0;
+}
+.wowDtlsContent ul {
+  margin: 0;
+  padding: 2.375rem 0 0 0;
+}
+
+.wowDtlsContent ul li {
+  list-style: none;
+  padding-bottom: 2.125rem;
+  color: #000000;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-family: var(--Raleway);
+  font-weight: 500;
+}
+.wowDtlsContent {
+  max-width: 29.438rem;
+}
+.wowDtlsContent ul li.location {
+  background: url("../img/location.svg") no-repeat left 0.688rem;
+  padding-left: 3.5rem;
+}
+
+.wowDtlsContent ul li.mail {
+  background: url("../img/mail.svg") no-repeat left 0.5rem;
+  padding-left: 3.5rem;
+}
+.wowDtlsContent ul li.callWithWatsapp {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  width: 100%;
+}
+.wowDtlsContent ul li.callWithWatsapp .whatsapp,
+.wowDtlsContent ul li.callWithWatsapp .call {
+  color: #000000;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-size: var(--robot0);
+}
+.wowDtlsContent ul li.callWithWatsapp .whatsapp {
+  margin-left: 0;
+
+  background: url("../img/whatsapp.svg") no-repeat left 2.5rem;
+  padding-left: 3.5rem;
+}
+.wowDtlsContent ul li.callWithWatsapp .call {
+  margin-left: 2.313rem;
+  background: url("../img/call.svg") no-repeat left 0.156rem;
+  padding-left: 3.5rem;
+}
+.wowDtlsContent ul li.call {
+}
+.subName {
+  color: #000000;
+  opacity: 1;
+  font-size: 2.188rem;
+  font-weight: bold;
+  font-family: var(--Raleway);
+}
+.btnDtls {
+  display: flex;
+  flex-wrap:wrap;
+  grid-column-gap: 1.625rem;
+}
+.btnDtls a {
+  font-family: var(--Raleway);
+  box-shadow: 0px 1.125rem 1.063rem #fff;
+  background: #886f59;
+  opacity: 1;
+  width: 12.75rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  line-height: 2.125rem;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.btnDtls a:hover {
+  box-shadow: 0px 1.125rem 1.063rem #00000036;
+}
+
+/*owl custom nav*/
+.customOwlnav {
+  position: relative;
+}
+.customOwlnav .owl-carousel .owl-nav span {
+  opacity: 0;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev {
+  position: relative;
+  width: 3.75rem !important;
+  height: 1.938rem !important;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next:hover,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev:hover {
+  background: none;
+}
+.customOwlnav .owl-carousel .owl-nav button.owl-next:before,
+.customOwlnav .owl-carousel .owl-nav button.owl-prev:before {
+  content: "";
+  position: absolute;
+  width: 3.188rem !important;
+  height: 3.188rem !important;
+  color: #fff !important;
+  background: url("../img/right-arrow.svg") no-repeat center #886f59 !important;
+  background-size: 2.5rem;
+  transform: rotate(180deg);
+  border-radius: 6px;
+}
+
+.customOwlnav .owl-carousel .owl-nav button.owl-next:before {
+  transform: rotate(0deg);
+}
+
+.customOwlnav .owl-theme .owl-nav {
+  margin-top: 1.5rem;
+}
+
+.customOwlnav.bottomPosition .owl-theme .owl-nav {
+  margin-top: 0.625rem;
+  position: absolute;
+  bottom: 2.563rem;
+}
+
+.customOwlnav.topLessPosition.rightPostiont .owl-theme .owl-nav {
+    margin-top: 0.625rem;
+    position: absolute;
+    top: -6.938rem;
+    right: 0;
+    left: auto;
+}
+/*end owl custom nav*/
+
+h2{
+    color: #000000;
+    font-family: var(---Playfair);
+    font-size: 3.063rem;
+    line-height: 4.063rem;
+    margin: 0;
+    font-weight:600;
+}
+/* branding section start here*/
+
+section.branding{
+background: transparent linear-gradient(180deg, #E7ECEF 0%, #E7ECEF 0%, #CDD1D400 99%, #B0B3B600 1%, #74767800 100%) 0% 0% no-repeat padding-box;
+padding:var(---secPad);
+}
+section.branding p{
+  font-size:1.5rem;
+  line-height:2.5rem;
+  color: #919191;
+  opacity: 1;
+  font-family:var(--Raleway);
+}
+.brndlist{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  grid-column-gap:1.125rem;
+  grid-row-gap:1.125rem;
+  flex-wrap:wrap;
+}
+.brandItmes{
+  width:calc(16.66% - 1.125rem);
+  height:11.375rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fff;
+  border-radius:0.25rem;
+  border:solid 0.063rem #ccc;
+}
+
+.storeTime{
+  background:#E7ECEF;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-top:83px;
+}
+.storeTimeHead{
+    position: relative;
+    color: #000000;
+    opacity: 1;
+    font-size: 3.063rem;
+    padding: 3.438rem 7.688rem 3.438rem 2.917rem;
+    font-family: var(---Playfair);
+    background: #CDDAE2;
+    margin-left: -11px;
+    margin-right: 95px;
+}
+.storeTimeHead:before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: -6.25;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: -6.25;
+    border-left-width: -6.25;
+    border-bottom: 11.5rem solid #e7ecef;
+}
+.storeOpenDate{
+  font-family: var(--Raleway);
+  font-size:1.938rem;
+  font-weight:bold;
+  line-height:3.125rem;
+  padding-right:0.938rem;
+}
+
+section.casioStore{
+  padding-bottom:var(---gap70);
+}
+section.casioStore .owl-item img{
+ /*margin-top:300px;
+ margin-bottom:300px;*/
+
+}
+section.casioStore p{
+  color: #919191;
+  opacity: 1;
+  padding:1.563rem 0 0 0;
+  margin:0;
+  font-size:1.5rem;
+  line-height:2.5rem;
+  text-align:center;
+}
+.max-center{
+  width:56.625rem;
+  margin:auto;
+}
+.curveBg{
+  position:relative;
+  overflow: hidden;
+}
+.curveBg:before{
+    /*content: ' ';
+    width: 102%;
+    height: 266px;
+    background: #fff;
+    position: absolute;
+    top: -134px;
+    z-index: 10;
+    border-radius: 50%;*/
+
+    content: ' ';
+    width: 100%;
+    height: 8.375rem;
+    background: #fff;
+    position: absolute;
+    top: -4.313rem;
+    z-index:2;
+    border-radius: 50%;
+}
+
+.curveBg:after{
+    content: ' ';
+    width: 123%;
+    left: -2.688rem;
+    height: 13.875rem;
+    background: #fff;
+    position: absolute;
+    bottom: -7.313rem;
+    z-index:2;
+    border-radius: 50%;
+}
+
+/*map section start from here*/
+section.mapSection ul.nav-tabs{
+  flex-wrap:wrap;
+  border:none;
+}
+section.mapSection ul.nav-tabs li{
+  width:100%;
+  padding:1.25rem 0;
+}
+section.mapSection ul.nav-tabs li:first-child{
+  margin-top:0;
+  padding-top:0;
+}
+section.mapSection ul.nav-tabs li a{
+  width:100%;
+  display:block;
+  border: 0.125rem solid #ccc;
+  padding:2rem 2.375rem;
+  border-radius:0.625rem;
+  background:#F8F9FA;
+}
+section.mapSection ul.nav-tabs li a.active{
+  border: 0.125rem solid #FAEAB1;
+
+}
+section.mapSection ul.nav-tabs li a h3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 1;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 0;
+}
+section.mapSection ul.nav-tabs li a h3 img{
+  margin-right:15px;
+}
+section.mapSection ul.nav-tabs li a p{
+    padding-left: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #919191;
+    opacity: 1;
+    font-family: var(--Raleway);
+    margin: 0;
+}
+section.mapSection iframe{
+  width:100%;
+  height:47.625rem;
+}
+
+footer{
+  padding:var(---secPad);
+  opacity: 1;
+  background:#FFFFFF;
+  font-size:1.5rem;
+  line-height:1.5rem;
+}
+footer a{
+  color:#E5BA73;
+  text-decoration:none;
+}
+
+
+@media (max-width: 767px) {
+  header{
+    text-align:center;
+  }
+  h1, .subName{
+    font-size:26px;
+    line-height:35px;
+  }
+  .wowDtlsContent ul li{
+    font-size:16px;
+    line-height:26px;
+  }
+}

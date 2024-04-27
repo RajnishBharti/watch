@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Date Filter</title>
+</head>
+<body>
+  <div id="tag-id">
+    <ol>
+</ol>
+    </div>
+
+    <script>
+    const date = new Date();
+    let todayDate = `${date.getFullYear()}-0${date.getMonth() + 1}-${date.getDate()}`;
+    
+      var HolidayList =[
+          "2024-01-16",
+          "2024-02-16",
+          "2024-08-16",
+          "2024-09-16",
+          "2024-09-25",
+          "2024-05-12",
+        ]
+    let output =  HolidayList.filter((x)=>{
+        return x >=  todayDate
+      })
+
+   output.map((x)=>{
+       return document.querySelector('#tag-id ol').innerHTML += `<li>${x}</li>`;
+   })
+    </script>
+</body>
+</html>

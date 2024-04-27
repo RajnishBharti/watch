@@ -1,0 +1,12 @@
+.connesiurey{
+    padding: 60px 0 0 0;
+    position: relative;
+}
+.connesiurey img{
+    width:100%;
+    height:auto;
+}
+
+@media screen and (max-width: 768px){
+    .connesiurey{padding:30px 0;}
+}
